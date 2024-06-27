@@ -1,0 +1,19 @@
+footer{
+    width: 800px;
+    /* auto 自动分配会让两边一致 从而居中 */
+    margin: auto;
+}
+ul{
+    /* 去除默认样式 */
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #555; */
+}·
+.vertical{
+
+}
