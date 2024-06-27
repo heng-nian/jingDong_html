@@ -1,0 +1,48 @@
+footer ul {
+    width: 1190px;
+    /* auto 自动分配会让两边一致 从而居中 */
+    margin: auto;
+}
+ul {
+    /* 去除默认样式 */
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    font-size: 12px;
+    /* background-color: #555; */
+}
+.footer_title {
+    border-bottom: 1px solid #dedede;
+    padding: 30px 0;
+}
+.footer_title li {
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+.service {
+    padding: 30px 0;
+}
+.service li {
+    width: 192px;
+    /* 行高 */
+    line-height: 22px;
+}
+.service li ul li span:hover,.navigation li:hover {
+    color: red;
+    cursor: pointer;
+}
+.service li h5 {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.navigation {
+    border-top: 1px solid #dedede;
+    padding: 15px 0;
+}
