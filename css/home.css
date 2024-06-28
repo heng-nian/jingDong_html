@@ -1,5 +1,4 @@
 footer ul {
-    width: 1190px;
     /* auto 自动分配会让两边一致 从而居中 */
     margin: auto;
 }
@@ -10,6 +9,7 @@ ul {
     padding: 0px;
 }
 .horizontal {
+    width: 1190px;
     display: flex;
     justify-content: space-between;
     color: #666;
@@ -33,7 +33,8 @@ ul {
     /* 行高 */
     line-height: 22px;
 }
-.service li ul li span:hover,.navigation li:hover {
+.service li ul li span:hover,
+.horizontal li span:hover {
     color: red;
     cursor: pointer;
 }
@@ -45,4 +46,7 @@ ul {
 .navigation {
     border-top: 1px solid #dedede;
     padding: 15px 0;
+}
+.serviceBase {
+    color: #999;
 }
